@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+.nav img {
+  width: 268px;
+  height: 33px;
+}
+
+.nav .nav2 {
+  width: 40%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: #ababab;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav3 {
+  list-style: none;
+  padding: 0;
+  display: none;
+  position: absolute;
+  border: 1px rgb(200, 200, 200) solid;
+
+  padding: 10px;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+  background-color: white;
+}
+.dropDown {
+  cursor: pointer;
+  position: relative;
+
+  /* margin-bottom: 20px; */
+}
+.dropDown:hover .nav3 {
+  display: block;
+}
+.nav3 li:hover {
+  background-color: rgb(191, 191, 191);
+}
+.icon {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.titre {
+  text-align: center;
+  font-size: 34px 0px;
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+.ph0 {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+.ph1 {
+  padding: 10px;
+  color: #747474;
+  margin: 12, 8px;
+  size: 16px;
+}
+.ph2 {
+  padding: 10px;
+  color: #747474;
+  margin: 12, 8px;
+  size: 16px;
+}
+.form {
+  width: 30%;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.patient {
+  background-color: #00ccb1;
+}
+.doctor {
+  background-color: #3d83df;
+}
+.clinic {
+  background-color: #1b2734;
+}
+.form img {
+  width: 24px;
+  height: 24px;
+}
